@@ -1,8 +1,9 @@
 ```
-This project explores portfolio optimization techniques using Python. It includes analysis of risk vs. return tradeoffs, Monte Carlo simulations for portfolio generation, and visualization of the efficient frontier.
+This project explores portfolio optimisation techniques using Python. It includes analysis of risk vs. return tradeoffs, Lagrange multipliers and Monte Carlo simulations for portfolio optimisation, and visualization of the efficient frontier.
 
 ## Features
 
+- Uses two different methods to optimise a portfolio.
 - Simulates thousands of portfolios with different asset weight combinations.
 - Calculates expected return, volatility, and Sharpe ratio.
 - Visualizes efficient frontier and highlights optimal portfolio.
@@ -16,9 +17,10 @@ This project explores portfolio optimization techniques using Python. It include
 - pandas
 - matplotlib
 
-## Getting Started
+## Comparing the two optimisation methods
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-optimization-analysis.git
+- Lagrange multipliers provided a more accurate portfolio when finding the portfolio to minimise risk
+- Lagrange multipliers were much less computationally expensive as Monte Carlo required creating thousands of simulations to improve accuracy
+
+- Monte Carlo had the benefit of choosing to not short-sell, meaning you can choose the optimal portfolio with no negative weights
 ```
