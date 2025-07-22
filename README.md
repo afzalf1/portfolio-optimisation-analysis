@@ -15,7 +15,6 @@ This project explores portfolio optimization techniques using Python. It include
 - NumPy
 - pandas
 - matplotlib
-- seaborn
 
 ## Getting Started
 
