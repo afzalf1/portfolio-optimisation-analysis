@@ -7,7 +7,7 @@ This project explores portfolio optimisation techniques using Python. It include
 - Simulates thousands of portfolios with different asset weight combinations.
 - Calculates expected return, volatility, and Sharpe ratio.
 - Visualizes efficient frontier and highlights optimal portfolio.
-- Built entirely using `pandas`, `numpy`, `matplotlib`, and `seaborn`.
+- Built entirely using `pandas`, `numpy` and `matplotlib`.
 
 ## Technologies Used
 
